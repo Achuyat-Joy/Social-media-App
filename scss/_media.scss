@@ -1,0 +1,13 @@
+@media(max-width: 768px){
+
+    body {
+        h1{
+            margin: 50px;
+        }
+    }
+
+    .container{
+        flex-direction: column;
+        margin: 50px;
+    }
+}

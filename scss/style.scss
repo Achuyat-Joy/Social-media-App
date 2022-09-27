@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Marker+Hatch&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+
+    h1{
+        margin: 100px;
+    }
+}
+  
+.container {
+    display: flex;
+    margin: 100px;
+    gap: 50px;
+}
+
+#posts {
+    width: 300px;
+    padding: 20px 0;
+
+    .options{
+        padding-bottom: 10px;
+    }
+
+}
+
+i {
+    cursor: pointer;
+}   
+
+button{
+    cursor: pointer;
+}
+
+#posts div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.options {
+    display: flex;
+    gap: 25px;
+}
+
+#msg {
+    color: red;
+}
+
+
+@import 'media';
